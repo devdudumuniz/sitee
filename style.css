@@ -117,7 +117,6 @@ header {
     width: 18%;
     margin: auto 2%;
     margin-left: 10%;
-    border: 1px solid #fff;
 }
 .link1 img {
     height: 100%;
@@ -208,7 +207,7 @@ section {
     text-decoration: none;
     text-align: center;
     position: relative;
-    font-size: clamp(1vw, 1.5vw, 2vw);
+    font-size: clamp(0.6vw, 1.2vw, 2vw);
     color: #57f783;
     border-right: 1px solid #4e4b4b;
     margin: 3%;
@@ -226,7 +225,7 @@ section {
 
 .submenu ul a:hover {
     word-break: break-all;
-    font-size: clamp(2vw, 1vw, 2vw);
+    font-size: clamp(0.5vw, 1.4vw, 1.5vw);
 }
 
 .conteudo__principal_1 {
