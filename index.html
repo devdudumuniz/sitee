@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!--tags meta-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--link css externo-->
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!--descrição-->
+    <meta name="description" content="site profissional educador fisico">
+    <!--link do Favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="/fotos/faviconluciano.ico">
+    <!--autor-->
+    <meta name="author" content="MR. DD">
+    <title>Luciano Personal</title>
+    <!--links das fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <!--links das fonte titulo pricipal (font-family: 'Ephesis', cursive;)-->
+    <!--LINK fonte do nome LUCIANO FERNANDES roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!--links dos icones-->
+    <script src=" https://kit.fontawesome.com/0cfef73daa.js " crossorigin="anonymous "></script>
+    <!--Links de códigos externos (js, HTML, Css)-->
+    <!-- link do estilo externo-->
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!-- link do JavaScript/Jquery externo-->
+    <script type="text/javascript" src="js/javascriptpag1.js"></script>
+    <!--acabando area do head-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 370) { //ponto de mudança - 210 pixeis
+        $('#hdr').css({
+            'position': 'relative' 
+            //fixo a partir deste ponto
+        });
+        } else {
+          $('#hdr').css({ 'position': 'fixed' }); //se voltou a cima põe estatico
+        }
+    });
+    </script>
+    <!--jquery do scroll-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+//hamburguer sumir
+$(document).ready(function() {
+            $("#hamburguer, #ul__hamb, .conteudo__sumir__hamb, .dentro__menu").click(function() {
+                $("#hamburguer__sumir").toggle(500);
+            });
+        });
+//duvidas frequentes
+$(document).ready(function() {
+            $("#ver1").click(function() {
+                $("#resposta1").toggle(400);
+            });
+        });
+        //
+        $(document).ready(function() {
+            $("#ver2").click(function() {
+                $("#resposta2").toggle(400);
+            });
+        });
+        //
+        $(document).ready(function() {
+            $("#ver3").click(function() {
+                $("#resposta3").toggle(400);
+            });
+        });
+        //
+        $(document).ready(function() {
+            $("#ver4").click(function() {
+                $("#resposta4").toggle(400);
+            });
+        });
+        //
+        $(document).ready(function() {
+            $("#ver5").click(function() {
+                $("#resposta5").toggle(400);
+            });
+        });
+    </script>
+</head>
+
+<!--corpo da pagina-->
+<body>
+    <!--div com o contúdo-->
+    <!--Cabeçalho da pagina-->
+    <header id="hdr">
+        <div class="container__principal__header">
+            <div class="Container__1">
+                <a href="#" class="link1">
+                    <img src="/fotos/logopng.png" alt="logo">
+                </a>
+                <a href="#" class="link2">
+                    <img src="/fotos/141413.png" alt="nome">
+                </a>
+            </div>
+            <div class="container__2" onclick="bemvindo()"></div>
+            <div class="Container__3 ">
+                <div class="centralizar">
+                    <i class="fas fa-bars" id="hamburguer"></i>
+                </div>
+            </div>
+        </div>
+        <!--conteudo menu hamburguer-->
+    <nav class="conteudo__sumir__hamb" id="hamburguer__sumir">
+    <div class="dentro__menu">
+            <ul id="ul__hamb">
+                <a href="#"><li>HOME</li></a>
+                <a href="#"><li>Marcar uma aula</li></a>
+                <a href="#"><li>Avaliação</li></a>
+                <a href="#"><li>Contatos</li></a>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <!--conteúdo pricipal da pagina-->
+    <!--div 1 serviços-->
+    <section>
+        <div class="submenu">
+            <ul>
+                <a href="#ver" target="_self">
+                    <li>Consultoria</li>
+                </a>
+                <a href="#">
+                    <li>Fotos e Videos</li>
+                </a>
+                <a href="#">
+                    <li>Quem sou eu?</li>
+                </a>
+                <a href="#">
+                    <li>Contato</li>
+                </a>
+                <a href="#">
+                    <li>Feedbacks</li>
+                </a>
+            </ul>
+        </div>
+        <div class="conteudo__principal_1">
+            <div class="container__conteudo1">
+                <div class="text__div1__left">
+                    <h2>Treinamento personalizado, presencial e a distâcia com 100% de eficácia.</h2>
+                </div>
+                <div class="image__div1__right "></div>
+            </div>
+        </div>
+        <!--div 2-->
+        <div class="conteudo__principal_2">
+            <div class="info__conteudo__principal_2">
+                <div class="conteudo__left_objetivo">
+                    <p>Olá, me chamo <b>Luciano Fernandes</b>, profissional de Educação Física e especialista em emagrecimento.<br><br>Bacharel em Educação Física.</p>
+                </div>
+                <div class="conteudo2__quemsoueu">
+                    <p>"Meu propósito é te ajudar a recuperar sua autoestima com o corpo dos seus sonhos "</p>
+                </div>
+            </div>
+        </div>
+        <!--div 3-->
+        <div class="conteudo__principal_3">
+            <div class="container__principal_3">
+                <h2>Feedbacks:</h2>
+            </div>
+            <div class="container__feedbacks__pessoas">
+                <div class="slide__alunos">
+                    <!--pessoa 1-->
+                    <div class="pessoas" id="pess1">
+                        <div class="container__da__pessoa">
+                            <div class="cabecalho__feedback">
+                                <div class="container__foto">
+                                    <img src="/fotos/logosemnome.jpg" alt="logo">
+                                </div>
+                            </div>
+                            <div class="container__mensagem__feedback">
+                                <div class="conteudo__body__feedback">
+                                    <a href="#">
+                                        <h2>Nome Do Aluno</h2>
+                                    </a>
+                                    <p>"Estou amando o acompanhamento, ja faz 1 ano que estou sendo acompanhado e os resultados são extraordinários. Parabens à esse grande profissional"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--pessoa 2-->
+                    <div class="pessoas" id="pess2">
+                        <div class="container__da__pessoa">
+                            <div class="cabecalho__feedback">
+                                <div class="container__foto">
+                                    <img src="/fotos/logosemnome.jpg" alt="logo">
+                                </div>
+                            </div>
+                            <div class="container__mensagem__feedback">
+                                <div class="conteudo__body__feedback">
+                                    <a href="#">
+                                        <h2>Nome Do Aluno</h2>
+                                    </a>
+                                    <p>"Estou amando o acompanhamento, ja faz 1 ano que estou sendo acompanhado e os resultados são extraordinários. Parabens à esse grande profissional"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--pessoa 3-->
+                    <div class="pessoas" id="pess3">
+                        <div class="container__da__pessoa">
+                            <div class="cabecalho__feedback">
+                                <div class="container__foto">
+                                    <img src="/fotos/logosemnome.jpg" alt="logo">
+                                </div>
+                            </div>
+                            <div class="container__mensagem__feedback">
+                                <div class="conteudo__body__feedback">
+                                    <a href="#">
+                                        <h2>Nome Do Aluno</h2>
+                                    </a>
+                                    <p>"Estou amando o acompanhamento, ja faz 1 ano que estou sendo acompanhado e os resultados são extraordinários. Parabens à esse grande profissional"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--fim da area de feedbacks,
+        começa agora container__pricipal_4-->
+        <!--div 4-->
+        <div class="conteudo__principal_4">
+            <div class="info__container__geral">
+                <div class="container__titulo__4">
+                    <h2>Planos de Consultoria</h2>
+                </div>
+                <div class="container__planos__4">
+                    <!--plano 1 mês-->
+                    <div class="formato__unico__planos" id="formato__unico__planos1">
+                        <div class="container__titulo__planos">
+                            <h4>PLANO MENSAL - ACOMPANHAMENTO</h4>
+                        </div>
+                        <div class="container__tudo__info">
+                            <ul class="container__corpo__planos">
+                                <li class="container__texto__corpo">
+                                    <i class="fas fa-check "></i>
+                                    <p>1 Programas de treinamento</p>
+                                </li>
+                                <li class="container__texto__corpo">
+                                    <i class="fas fa-check "></i>
+                                    <p>Videos com execução de todos os treinos</p>
+                                </li>
+                                <li class="container__texto__corpo">
+                                    <i class="fas fa-check"></i>
+                                    <p>Acesso a plataforma exclusiva</p>
+                                </li>
+                                <li class="container__texto__corpo">
+                                    <i class="fas fa-check "></i>
+                                    <p>WhatsApp para dúvidas</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__planos">
+                            <a href="wa.me/77991920364" target="_blank">
+                                <div class="container5"><i class="fas fa-dumbbell"></i>
+                                    <p> QUERO ESSE PLANO!
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--plano 2 trimestral-->
+                    <div class="formato__unico__planos" id="formato__unico__planos2">
+                        <div class=" container__titulo__planos">
+                            <h4>PLANO TRIMESTRAL - ACOMPANHAMENTO</h4>
+                        </div>
+                        <div class="container__tudo__info">
+                            <ul class="container__corpo__planos">
+                                <li class="container__texto__corpo">
+                                    <i class="fas fa-check"></i>
+                                    <p>3 Programas de treinamento</p>
+                                </li>
+                                <li class="container__texto__corpo">
+                                    <i class="fas fa-check"></i>
+                                    <p>Videos com execução de todos os treinos</p>
+                                </li>
+                                <li class="container__texto__corpo">
+                                    <i class="fas fa-check"></i>
+                                    <p>Acesso a plataforma exclusiva</p>
+                                </li>
+                                <li class="container__texto__corpo">
+                                    <i class="fas fa-check"></i>
+                                    <p>WhatsApp para dúvidas</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__planos">
+                            <a href="wa.me/77991920364" target="_blank">
+                                <div class="container5"><i class="fas fa-dumbbell"></i>
+                                    <p> QUERO ESSE PLANO!
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--pano 3  semestral-->
+                    <div class="formato__unico__planos" id="formato__unico__planos3">
+                        <div class=" container__titulo__planos">
+                            <h4>PLANO SEMESTRAL - ACOMPANHAMENTO</h4>
+                        </div>
+                        <div class="container__tudo__info">
+                            <ul class="container__corpo__planos">
+                                <li class="container__texto__corpo">
+                                    <i class="fas fa-check"></i>
+                                    <p>6 Programas de treinamento</p>
+                                </li>
+                                <li class="container__texto__corpo">
+                                    <i class="fas fa-check
+                                    "></i>
+                                    <p>Videos com execução de todos os treinos</p>
+                                </li>
+                                <li class="container__texto__corpo">
+                                    <i class="fas fa-check"></i>
+                                    <p>Acesso a plataforma exclusiva</p>
+                                </li>
+                                <li class="container__texto__corpo">
+                                    <i class="fas fa-check"></i>
+                                    <p>WhatsApp para dúvidas</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__planos">
+                            <a href="wa.me/77991920364" target="_blank">
+                                <div class="container5"><i class="fas fa-dumbbell"></i>
+                                    <p> QUERO ESSE PLANO!
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--div 5-->
+        <div class="conteudo__principal_5">
+            <div class="container__pricipal_5">
+                <div class="container__titulo__principal">
+                    <h2>Fotos e Vídeos</h2>
+                </div>
+                <div class="container__video">
+                    <iframe src="https://www.youtube.com/embed/kMe5bWTs5_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                    <iframe src="https://www.youtube.com/embed/kMe5bWTs5_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                    <iframe src="https://www.youtube.com/embed/kMe5bWTs5_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="container__fotos">
+                    <img src="/fotos/logosemnome.jpg" alt="#" id="foto1">
+                    <img src="/fotos/logosemnome.jpg" alt="#" id="foto2">
+                    <img src="/fotos/logosemnome.jpg" alt="#" id="foto3">
+                    <img src="/fotos/logosemnome.jpg" alt="#" id="foto4">
+                    <img src="/fotos/logosemnome.jpg" alt="#" id="foto5">
+                </div>
+            </div>
+        </div>
+        <!--div 6-->
+        <div class="conteudo__principal_6">
+            <div class="container__principal__6">
+                <div class="container__titulo">
+                    <h2>Dúvidas Comuns</h2>
+                </div>
+                <div class="container__corpo__duvidas">
+                    <ul>
+                        <li class="ver__mais" id="ver1">
+                            <div class="container__dentro__li">
+                                <div class="container__titulo__perguntas">
+                                    <h4>Como funciona o acompanhamento?</h4>
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="resposta" id="resposta1">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vitae atque rem nesciunt obcaecati possimus! Vero, quos porro perspiciatis necessitatibus ducimus quas molestiae esse saepe ipsam rerum error ipsa delectus?
+                                </p>
+                            </div>
+                        </li>
+                        <li class="ver__mais" id="ver2">
+                            <div class="container__dentro__li">
+                                <div class="container__titulo__perguntas">
+                                    <h4>Formas de pagamento</h4>
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="resposta" id="resposta2">
+                                <p><i class="fa fa-credit-card" aria-hidden="true"></i>Cartão de Crédito/Débito 
+                                </p> 
+                                <p><i class="fa fa-university" aria-hidden="true"></i>Transferência
+                                </p> 
+                                <p><img src="/arquivos/141413.png" alt=""> Pix
+                                </p>
+                            </div>
+                        </li>
+                        <li class="ver__mais" id="ver3">
+                            <div class="container__dentro__li">
+                                <div class="container__titulo__perguntas">
+                                    <h4>Como funciona o acompanhamento?</h4>
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="resposta" id="resposta3">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vitae atque rem nesciunt obcaecati possimus! Vero, quos porro perspiciatis necessitatibus ducimus quas molestiae esse saepe ipsam rerum error ipsa delectus?
+                                </p>
+                            </div>
+                        </li>
+                        <li class="ver__mais" id="ver4">
+                            <div class="container__dentro__li">
+                                <div class="container__titulo__perguntas">
+                                    <h4>Como funciona o acompanhamento?</h4>
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="resposta" id="resposta4">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vitae atque rem nesciunt obcaecati possimus! Vero, quos porro perspiciatis necessitatibus ducimus quas molestiae esse saepe ipsam rerum error ipsa delectus?
+                                </p>
+                            </div>
+                        </li><li class="ver__mais" id="ver5">
+                            <div class="container__dentro__li">
+                                <div class="container__titulo__perguntas">
+                                    <h4>Como funciona o acompanhamento?</h4>
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                            <div class="resposta" id="resposta5">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vitae atque rem nesciunt obcaecati possimus! Vero, quos porro perspiciatis necessitatibus ducimus quas molestiae esse saepe ipsam rerum error ipsa delectus?
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--div 7-->
+        <div class="conteudo__principal_7"> 
+        </div>
+        <!--div 8-->
+        <div class="conteudo__principal_8"></div>
+        <!--div 9-->
+        <div class="conteudo__principal_9"></div>
+        <!--div 10-->
+        <footer>
+            <div class="container__footer">
+                <div class="footer__container__1" id="footer__cont__01">
+                    <div class="titulo__link1">
+                        <h2>Contatos:</h2>
+                    </div>
+                <ul>
+                    <li type="e-mail"><i class="far fa-envelope"></i> Luciano@gmail.com </li>
+                    <li><i class="fas fa-mobile-alt"></i> (79)99813-7406</li>
+                </ul>
+                </div>
+                <div class="footer__container__1">
+                    <div class="titulo__link1">
+                        <h2>Atendimento:</h2>
+                    </div>
+                    <ul>
+                        <li>Segunda - Sexta</li>
+                        <li>05:00hrs - 19:00hrs</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Aracaju-SE </li>
+                    </ul>
+                </div>
+                <div class="footer__container__1 footer__container__3">
+                    <div class="titulo__link1">
+                        <h2>Redes Sociais:</h2>
+                    </div>
+                    <ul>
+                        <li> 
+                            <a href="https://www.youtube.com/user/ajciano01" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://twitter.com/personallucian0" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/PersonalLucianoFernandes" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/personallucianofernandes/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="http://bit.ly/Personallucianofernandes" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </footer>
+    </section>
+
+</body>
+
+</html>
