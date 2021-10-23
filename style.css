@@ -207,7 +207,7 @@ section {
     text-decoration: none;
     text-align: center;
     position: relative;
-    font-size: clamp(0.6vw, 1.2vw, 2vw);
+    font-size: clamp(0.2vw, 1.2vw, 2vw);
     color: #57f783;
     border-right: 1px solid #4e4b4b;
     margin: 3%;
@@ -216,7 +216,8 @@ section {
     width: 60vw;
 }
 
-.submenu ul li { 
+.submenu ul li {  
+    font-size: clamp(0.2vw, 1.2vw, 2vw);
     text-align: center;
     margin: auto;
     padding: 1%;
@@ -225,7 +226,7 @@ section {
 
 .submenu ul a:hover {
     word-break: break-all;
-    font-size: clamp(0.5vw, 1.4vw, 1.5vw);
+    font-size: clamp(0.2vw, 1.4vw, 1.5vw);
 }
 
 .conteudo__principal_1 {
